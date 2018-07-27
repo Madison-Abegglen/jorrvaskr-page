@@ -1,7 +1,54 @@
 .bg-nav{
     background-color: white;
-    height: 15vh;
+    height: 20vh;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.bg-nav img{
+    border-radius: 50%;
+    margin: 50px;
+    position: relative;
+    display: inline-block;
 }
 .bg-cool{
-
+    padding-top: 50px;
+    height: 500px;
+    justify-content: flex-center;
+}
+.bg-cool img{
+    margin-bottom: -10px;
+}
+#grad{
+    background: linear-gradient(rgb(73, 73, 73), black);
+    background-size: cover;
+}
+.txtwhite{
+    color: white;
+}
+.txtcool{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.m10{
+    margin: 10px;
+}
+.bg-kindacool{
+    background-color: rgb(196, 196, 196);
+    padding: 10vh;
+}
+button{
+    color: gray;
+}
+.p10{
+    padding-top: 10px;
+}
+.m12{
+    margin: 30px;
+}
+.bg-gray{
+    background-color: #404040;
+    min-height: 100px;
+    padding: 30px;
+}
+.textbox{
+    margin-left: 15px;
 }
